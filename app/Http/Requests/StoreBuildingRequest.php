@@ -39,7 +39,7 @@ class StoreBuildingRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'name.required' => 'The field name is required'
+            'name.required' => 'Please enter the name'
         ];
     }
 }
